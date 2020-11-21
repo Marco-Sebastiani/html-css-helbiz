@@ -85,8 +85,7 @@ ul.navbar-language li a {
 }
 
 #products .row .row [class*="col-"]{
-  background-color: #fafafa;
-  margin: 20px;
+  padding: 20px;
 }
 
 #products img{
@@ -109,6 +108,23 @@ ul.navbar-language li a {
   color: #020bff;
   font-weight: bold;
 }
+
+#products .margin-product{
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 992px){
+  #products .container .row h2{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  #products .container .row h3{
+    font-size: 15px;
+  }
+}
+
 
 /* STEPS */
 
