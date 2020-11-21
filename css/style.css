@@ -180,6 +180,13 @@ left: 20%;
   padding-top: 30px;
  }
 }
+
+@media screen and (max-width: 420px){
+
+  #steps .pt-100{
+  padding-top: 10px;
+ }
+}
 /* MOBILITY */
 
 
