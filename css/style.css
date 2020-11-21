@@ -125,6 +125,12 @@ ul.navbar-language li a {
   background-position: right;
 }
 
+@media screen and (max-width: 1240px){
+  .bckg-man {
+    background-position: center;
+  }
+}
+
 #steps .row h3{
   font-size: 25px;
   position: absolute;
@@ -134,7 +140,7 @@ ul.navbar-language li a {
 
 
 #steps .row img{
-height: 525px;
+height: 500px;
 position: absolute;
 bottom: 0;
 left: 20%;
@@ -143,12 +149,13 @@ left: 20%;
 #steps .row h5{
   font-size: 15px;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 #steps .height{
   height: 200px;
 }
+
 
 /* MOBILITY */
 
