@@ -78,8 +78,37 @@ ul.navbar-language li a {
   }
 }
 
+/* SEZIONE PRODOTTI */
+
+/* #prodotti{
+  background-color: #fff;
+} */
 
 
+#products .row{
+  background-color: #fff;
+}
 
+#products .row .row [class*="col-"]{
+  background-color: #fafafa;
+  margin: 20px;
+}
+
+#products img{
+  max-width: 80%;
+}
+
+#products .row .row h2{
+  padding-top: 50px;
+}
+
+#products .row .row h3 {
+  padding: 20px 0;
+}
+
+#products .row .row a{
+  color: #020bff;
+  font-weight: bold;
+}
 
 /* END CSS */
