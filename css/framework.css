@@ -37,6 +37,48 @@
   padding: 10px;
 }
 
+
+/* Classi per allineamento */
+.text-right{
+  text-align: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+/* MARGINI E PADDING */
+.m-10{
+  margin: 10px;
+}
+
+.m-20{
+  margin: 20px;
+}
+
+.m-30{
+  margin: 30px;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+
+.p-10{
+  padding: 10px;
+}
+
+.p-20{
+  padding: 20px;
+}
+
+.p-30{
+  padding: 30px;
+}
+
+
+
 /* FRAMEWORK */
 .col-lg-1 {
   width:calc(100% / 12 * 1)
@@ -92,7 +134,7 @@
 
 
 /* WARNING MEDIA MD */
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (max-width:992px) {
   .col-md-1{
     width: calc(100% / 12);
   }
@@ -227,7 +269,7 @@
   margin-left:calc(100% / 12 * 12)
 }
 
-@media screen and (min-width:768px) and (max-width:992px){
+@media screen and (max-width:992px){
   .col-md-offset-1{
     margin-left:calc(100% / 12 * 1)
   }
