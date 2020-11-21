@@ -80,11 +80,6 @@ ul.navbar-language li a {
 
 /* SEZIONE PRODOTTI */
 
-/* #prodotti{
-  background-color: #fff;
-} */
-
-
 #products .row{
   background-color: #fff;
 }
@@ -100,6 +95,10 @@ ul.navbar-language li a {
 
 #products .row .row h2{
   padding-top: 50px;
+  font-size: 35px;
+}
+#products .row .row h3{
+  font-size: 25px;
 }
 
 #products .row .row h3 {
@@ -110,5 +109,48 @@ ul.navbar-language li a {
   color: #020bff;
   font-weight: bold;
 }
+
+/* STEPS */
+
+.relative-col{
+  height: 200px;
+  position: relative;
+}
+
+.bckg-man{
+  height: 400px;
+  background-image: url('../img/index-banner.1f6fd0a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+#steps .row h3{
+  font-size: 25px;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+
+
+#steps .row img{
+height: 525px;
+position: absolute;
+bottom: 0;
+left: 20%;
+}
+
+#steps .row h5{
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+}
+
+
+
+
+
 
 /* END CSS */
