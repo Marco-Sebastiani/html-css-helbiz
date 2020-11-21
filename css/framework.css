@@ -172,15 +172,17 @@
     width:calc(100% / 12 * 12)
   }
 
+  .md-display-none{
+    display: none;
+  }
+
+  .md-display-block{
+    display: block;
+  }
+
 }
 
-.md-display-none{
-  display: none;
-}
 
-.md-display-block{
-  display: block;
-}
 
 /* WARNING MEDIA XS */
 @media screen and (max-width:768px) {
@@ -221,15 +223,17 @@
     width:calc(100% / 12 * 12)
   }
 
+  .xs-display-none{
+    display: none;
+  }
+
+  .xs-display-block{
+    display: block;
+  }
+
 }
 
-.xs-display-none{
-  display: none;
-}
 
-.xs-display-block{
-  display: block;
-}
 
 /* FRAMEWORK OFFSET */
 .col-lg-offset-1{

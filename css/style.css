@@ -1,4 +1,54 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+}
+
 .container{
   max-width: 1270px;
   margin: 0 auto;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+.header-top{
+  height: 80px;
+  line-height: 80px;
+}
+
+ul.navbar-link li,
+ul.navbar-language li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+ul.navbar-link li a,
+ul.navbar-language li a {
+  color: #343434;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header-top .logo {
+  vertical-align: middle;
+}
+
+ ul.navbar-language :not(:last-child) a {
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+/* END CSS */
