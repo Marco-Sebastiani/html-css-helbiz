@@ -143,13 +143,25 @@ left: 20%;
 #steps .row h5{
   font-size: 15px;
   font-weight: 600;
-  position: absolute;
-  bottom: 70px;
-  left: 0;
+  margin-left: 10px;
 }
 
+#steps .height{
+  height: 200px;
+}
+
+/* MOBILITY */
 
 
+#mobility .container{
+  background-image: url('../img/scooter.f0a0397.jpg');
+  height: 400px;
+}
+
+#mobility .row h3{
+  line-height: 400px;
+  color: #fff;
+}
 
 
 
