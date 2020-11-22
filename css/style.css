@@ -233,14 +233,11 @@ left: 20%;
 
 #app .row{
   background-color: #fff;
+  color: #fff;
 }
 
 #app .row .row [class*="col-"]{
   padding: 20px;
-}
-
-#app .app-container{
-  height: 200px;
 }
 
 #app .row .row h2{
@@ -256,19 +253,69 @@ left: 20%;
 }
 
 #app .row .row a{
-  color: #020bff;
+  color: #fff;
   font-weight: bold;
+  padding: 0 5px;
+}
+
+#app .app-container{
+  height: 448px;
+  background: linear-gradient(#3f5467, #2a3742);
+  /* background-color: #2a3742; */
+  /* #3f5467 */
+}
+
+#app .crop-img {
+  object-fit: cover;
+  object-position: 100% 0;
+  width: 480px;
+  height: 230px;
+}
+
+#app .img-padding{
+  padding-top: 25px;
 }
 
 #app .lake-city{
-  height: 700px;
-  background-image: url('../img/city.7c8c928.jpg"');
+  height: 448px;
+  background-image: url('../img/city.7c8c928.jpg');
   background-size: cover;
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px){
+  #app .crop-img {
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 350px;
+    height: 170px;
+  }
 
+  #app .img-padding{
+    padding-top: 85px;
+  }
+}
 
+@media screen and (max-width: 768px){
+  #app .row .row h3{
+    font-size: 20px;
+  }
+  #app .img-padding{
+    padding-top: 92px;
+  }
+}
 
+@media screen and (max-width: 420px){
+  #app .crop-img {
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 270px;
+    height: 130px;
+  }
+
+  #app .img-padding{
+    padding-top: 132px;
+  }
+}
 
 
 
