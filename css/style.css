@@ -317,7 +317,77 @@ left: 20%;
   }
 }
 
+@media screen and (max-width: 380px){
+  #app .crop-img {
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 270px;
+    height: 130px;
+  }
+
+  #app .img-padding{
+    padding-top: 105px;
+  }
+}
 
 
+
+/* FAMILY */
+
+#family{
+  color: #000;
+}
+
+#family .container-family {
+  background-image: url('../img/family.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+#family .container-family h2 {
+  margin-top: 60px;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+#family .container-family a {
+  padding: 0 15px;
+  font-size: 35px;
+  color: #000;
+}
+
+#family .margin-a-family{
+  margin-bottom: 60px;
+}
+
+#family .container-family .social{
+  position: absolute;
+  width: 32%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 992px){
+  .container-family h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #family .container-family .social{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 420px){
+  #family .container-family .social{
+    width: 80%;
+  }
+}
 
 /* END CSS */
