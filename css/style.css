@@ -85,7 +85,15 @@ ul.navbar-language li a {
 }
 
 #products .row .row [class*="col-"]{
-  padding: 20px;
+  padding: 20px 0;
+}
+
+#products .row .row .padding-l{
+  padding-left: 15px;
+}
+
+#products .row .row .padding-r{
+  padding-right: 15px;
 }
 
 #products img{
@@ -125,6 +133,15 @@ ul.navbar-language li a {
   }
 }
 
+@media screen and (min-width: 420px) and (max-width: 768px){
+  #products .row .row .padding-l{
+    padding-left: 0;
+  }
+
+  #products .row .row .padding-r{
+    padding-right: 0;
+  }
+}
 
 /* STEPS */
 
@@ -224,9 +241,6 @@ left: 20%;
   }
 }
 
-/* #mobility .row .col-lg-6{
-  padding: 0 20px;
-} */
 
 
 /* APP */
@@ -237,8 +251,17 @@ left: 20%;
 }
 
 #app .row .row [class*="col-"]{
-  padding: 20px;
+  padding: 20px 0 ;
 }
+
+#app .row .row .padding-l{
+  padding-left: 15px;
+}
+
+#app .row .row .padding-r{
+  padding-right: 15px;
+}
+
 
 #app .row .row h2{
   padding-top: 50px;
@@ -282,7 +305,7 @@ left: 20%;
   background-size: cover;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 991px){
   #app .crop-img {
     object-fit: cover;
     object-position: 100% 0;
@@ -293,6 +316,15 @@ left: 20%;
   #app .img-padding{
     padding-top: 85px;
   }
+
+  #app .row .row .padding-l{
+    padding-left: 0;
+  }
+
+  #app .row .row .padding-r{
+    padding-right: 0;
+  }
+
 }
 
 @media screen and (max-width: 768px){
@@ -315,6 +347,15 @@ left: 20%;
   #app .img-padding{
     padding-top: 132px;
   }
+
+  #app .row .row .padding-l{
+    padding-left: 0;
+  }
+
+  #app .row .row .padding-r{
+    padding-right: 0;
+  }
+
 }
 
 @media screen and (max-width: 380px){
@@ -326,8 +367,16 @@ left: 20%;
   }
 
   #app .img-padding{
-    padding-top: 105px;
+    padding-top: 132px;
   }
+  #app .row .row .padding-l{
+    padding-left: 0;
+  }
+
+  #app .row .row .padding-r{
+    padding-right: 0;
+  }
+
 }
 
 
