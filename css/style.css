@@ -496,4 +496,28 @@ footer .row .hr-bottom{
   margin-top: 100px;
 }
 
+@media screen and (max-width: 992px){
+  .footer-padding{
+    padding: 25px 0;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 768px){
+  .footer-padding{
+    padding: 25px 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer-social{
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width:420px){
+  .col-xs-offset-1{
+    margin-left: 16px;
+  }
+}
+
 /* END CSS */
