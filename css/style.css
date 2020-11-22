@@ -488,6 +488,11 @@ footer .row hr{
   color: #6a6a6a;
 }
 
+footer .row img{
+  border: 1px solid #6a6a6a;
+  border-radius: 10%;
+}
+
 footer .row .hr-top{
   margin-bottom: 80px;
 }
@@ -518,6 +523,11 @@ footer .row .hr-bottom{
   .col-xs-offset-1{
     margin-left: 16px;
   }
+
+  footer .row img{
+    max-width: 100%;
+  }
 }
+
 
 /* END CSS */
